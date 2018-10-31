@@ -30,7 +30,7 @@
 
   body{
     background-color: #0C090A;
-    background-image: url("../images/nissan-gtr.jpg");
+    background-image: url("../images/speedo.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -50,6 +50,16 @@
 
 
 #myPic img {
-  max-width: 70%;
-  max-height: 90%;
+  max-width: 800px;
+  max-height: 800px;
+}
+
+.logo {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.projectim {
+  max-width: 100px;
+  max-height: 100px;
 }

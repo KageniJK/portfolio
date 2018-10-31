@@ -9,8 +9,8 @@
   <link href="https://fonts.googleapis.com/css?family=Acme|Play|Quicksand" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>James Kageni</title>
 </head>
@@ -21,110 +21,70 @@
     <div class="row">
       <h2 class="col-md-6 text-center">Full Stack web Developer</h2>
       <h2 class="col-md-6 text-center">Designer extrodinaire</h2>
-      <div class="col-md-4">
-      <!-- Button trigger modal -->
-      <div type="button" class="btn btn-secondary btn-lg col-md-12" data-toggle="modal" data-target="#aboutModal">About</div>
 
-      <!-- About Modal -->
-      <div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Kageni in a nutshell</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-            </div>
-            <div class="modal-body">
-              <p>Hi. At this point you probably know a few things about me. Lets dive a little further though. I suppose I have always been interested in tech and learning how thing work. I was always opening appliances to see how they worked from a very young
-              age. When I first interacted with computers I wanted to know how they did what they did. I wanted to know how the machine turned something written to a drive into a program or game. That naturally led to code and how to build software. During
-              my studies I interacted with code several times and it was always what held my interest. That has led me to where I am now, learning how to code for the web.</p>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            </div>
-          </div>
+      <!-- Picture of me -->
+      <div id="myPic" class="col-md-8">
+        <img src="images/James Kageni.jpg" alt="Jaymo">
         </div>
-      </div>
 
-<!-- Projects modal -->
-  <div type="button" class="btn btn-secondary btn-lg col-md-12" data-toggle="modal" data-target="#projects">Projects</div>
-  <div class="modal fade" id="projects" tabindex="-1" role="dialog" aria-labelledby="projectsLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="projectsLabel">Projects</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <div class="projects">
+        <!-- i bet you think this part is about you, dontcha -->
+        <div class="modal-body">
+          <p>Hi. At this point you probably know a few things about me. Lets dive a little further though. I suppose I have always been interested in tech and learning how thing work. I was always opening appliances to see how they worked from a
+            very young
+            age. When I first interacted with computers I wanted to know how they did what they did. I wanted to know how the machine turned something written to a drive into a program or game. That naturally led to code and how to build software.
+            During
+            my studies I interacted with code several times and it was always what held my interest. That has led me to where I am now, learning how to code for the web.</p>
+        </div>
+
+
+        <!-- Projects section -->
         <p><strong>These are just a few of my past projects</strong></p>
         <div class="row">
-          <div class="col-md-4">
-            <p><a href="https://kagenijk.github.io/Anitas-Kitchen/"><img class="projectim" src="images/anitas.png" alt="Anitas Kitchen"></a></p>
-            <p><h3>Anita's Kitchen</h3> <br> A moringa school project where we were recreating a website using HTML5 CSS3 and javascript </p>
+          <div class="row">
+            <p><a href="https://kagenijk.github.io/Anitas-Kitchen/" class="col-md-4"><img class="projectim" src="images/anitas.png" alt="Anitas Kitchen"></a></p>
+            <p><h3><a href="https://github.com/KageniJK/Anitas-Kitchen">Anita's Kitchen</a></h3> <br> A moringa school project where we were recreating a website. <br>HTML5 CSS3 and javascript </p>
           </div>
-          <div class="col-md-4">
-            <p> <a href="http://kiddiestepsmontessori.co.ke/index.html">
-              <img class="projectim" src="images/kiddieSteps.png" alt="Kiddie Steps Montessori"></a></p>
-            <p><h3>Kiddie Steps</h3> Migration of the entire website from one host to another and editing of the website to meet new needs by the client.</p>
+          <div class="row">
+            <p> <a href="https://kagenijk.github.io/pig-dice/" class="col-md-4 projectim">
+              <img class="projectim" src="images/pig-dice.png" alt="Pig-Dice"></a></p>
+            <p><h3><a href="https://github.com/KageniJK/pig-dice">Pig Dice.</a></h3> A javascript turn based dice game. <br> Css, Html, Javascript</p>
           </div>
-          <div class="col-md-4">
-            <p><a href="http://www.jkarebe.com/"><img class="projectim" src="images/jkarebe.png" alt="Jkarebe"></a></p>
-            <p><h3>Jkarebe</h3> <br> Website design and maintainance</p>
+          <div class="row">
+            <p><a href="" class="col-md-4 projectim"><img class="projectim" src="images/jkarebe.png" alt="Jkarebe"></a></p>
+            <p><h3></h3> <br> </p>
           </div>
         </div>
-      </div>
-
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-  </div>
 
 
-<!-- Skills modal  -->
-  <div type="button" class="btn btn-secondary btn-lg col-md-12" data-toggle="modal" data-target="#skills">Skills  </div>
-  <div class="modal fade" id="skills" tabindex="-1" role="dialog" aria-labelledby="skillsLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="skillsLabel">Skills</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <div class="row lists" id="Skills">
-          <ul>
-            <li>Html</li>
-            <li>Css</li>
-            <li>Javascript</li>
-            <li>Python</li>
-            <li>C, C++, C#</li>
-          </ul>
-        </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-  </div>
-</div>
-</div>
-<div id="myPic" class="col-md-8">
-  <img src="images/James Kageni.jpg" alt="Jaymo">
-</div>
-</div>
-<br>
 
-<footer>
-  <p id="links"><a href="https://github.com/KageniJK"><i class="fab fa-github"></i></a>
-  <a href="https://ke.linkedin.com/in/james-kageni-0b8120119"><i class="fab fa-linkedin"></i></a>  </p>
-</footer>
+        <!-- Skills section  -->
+        <div class="modal-body">
+          <div class="row lists align-center" id="Skills">
+            <div class="col-md-4 logo"><img src="images/HTML5_logo_and_wordmark.svg" alt=""><br>HTML</div>
+              <div class="col-md-4 logo"><img src="images/css.png" alt=""><br>CSS</div>
+                <div class="col-md-4 logo"><img src="images/js.png" alt=""><br>Javascript</div>
+                  <div class="col-md-4 logo"><img src="images/python.png" alt=""><br>Python</div>
+                  </div>
+                </div>
+
+                <!-- touch it remix -->
+                <form method="POST" action="https://formspree.io/james.kageni@gmail.com" class="">
+                  <div class="container">
+                    <input type="text" name="name" placeholder="Your name">
+                    <input type="email" name="email" placeholder="Your email">
+                    <textarea name="message" placeholder="Your message"></textarea><br>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                  </div>
+                </form>
+
+                <br>
+
+                <footer>
+
+
+                  <p id="links"><a href="https://github.com/KageniJK"><i class="fab fa-github"></i></a>
+                    <a href="https://ke.linkedin.com/in/james-kageni-0b8120119"><i class="fab fa-linkedin"></i></a> </p>
+                </footer>
 </body>
+
 </html>
