@@ -1,36 +1,10 @@
-.modal img {
-    width:auto;
-    max-width: 80%;
-    max-height: 70vh;
-    width: auto\9; /* ie8 */
-  }
-
-  .modal-body{
-    text-align: center;
-    height: auto;
-    color: rgb(0, 0, 0);
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-
-  @media (min-width: 768px){
-  .modal-dialog {
-    width: auto;
-    max-width: 80%;
-
-  }
-
-  .modal-header{
-    color: rgb(0, 0, 0);
-  }
-
   .card{
     width: 18rem;
   }
 
   body{
     background-color: #0C090A;
-    background-image: url("../images/speedo.jpg");
+    /* background-image: url("../images/background.jpg"); */
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -54,12 +28,12 @@
   max-height: 800px;
 }
 
-.logo {
+.logo img{
   max-width: 200px;
   max-height: 200px;
 }
 
-.projectim {
-  max-width: 100px;
-  max-height: 100px;
+.projectim img{
+  max-width: 400px;
+  max-height: 400px;
 }
