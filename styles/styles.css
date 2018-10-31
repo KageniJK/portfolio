@@ -1,0 +1,55 @@
+.modal img {
+    width:auto;
+    max-width: 80%;
+    max-height: 70vh;
+    width: auto\9; /* ie8 */
+  }
+
+  .modal-body{
+    text-align: center;
+    height: auto;
+    color: rgb(0, 0, 0);
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  @media (min-width: 768px){
+  .modal-dialog {
+    width: auto;
+    max-width: 80%;
+
+  }
+
+  .modal-header{
+    color: rgb(0, 0, 0);
+  }
+
+  .card{
+    width: 18rem;
+  }
+
+  body{
+    background-color: #0C090A;
+    background-image: url("../images/nissan-gtr.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-clip: border-box;
+    backface-visibility: visible;
+    font-family: sans-serif;
+    color: rgb(96, 186, 205);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    text-align: center;
+    margin 3%;
+    font-family: play;
+    font-size: 25px;
+  }
+
+
+#myPic img {
+  max-width: 70%;
+  max-height: 90%;
+}
