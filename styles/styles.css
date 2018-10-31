@@ -4,7 +4,7 @@
 
   body{
     background-color: #0C090A;
-    background-image: url("../images/woods.jpg");
+    background-image: url("../images/gear.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -12,7 +12,7 @@
     background-clip: border-box;
     backface-visibility: visible;
     font-family: sans-serif;
-    color: rgb(96, 186, 205);
+    color: #01BAEF;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 5px;
@@ -41,4 +41,8 @@
 div {
   margin-top:10px;
   margin-bottom: 10px;
+}
+
+#Skills {
+  background-color: rgba(0, 0, 0, 0.7);
 }
