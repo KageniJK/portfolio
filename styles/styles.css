@@ -4,7 +4,7 @@
 
   body{
     background-color: #0C090A;
-    /* background-image: url("../images/background.jpg"); */
+    background-image: url("../images/woods.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -36,4 +36,9 @@
 .projectim img{
   max-width: 400px;
   max-height: 400px;
+}
+
+div {
+  margin-top:10px;
+  margin-bottom: 10px;
 }
