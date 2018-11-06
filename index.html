@@ -19,13 +19,14 @@
       <h2 class="col-md-6 text-center">Designer extrodinaire</h2>
     </div>
     <!-- Picture of me -->
-    <div id="myPic">
+    <div id="myPic" class="my-5">
       <img src="images/James Kageni.jpg" alt="Jaymo">
     </div>
 
       <!-- i bet you think this part is about you, dontcha -->
-      <div class="">
-        <p>Hi. At this point you probably know a few things about me. Lets dive a little further though. I suppose I have always been   interested in tech and learning how thing work. I was always opening appliances to see how they worked from a
+      <div class="overlay py-3 px-5">
+        <h3>About Me</h3>
+        <p>Hi.  I have always been interested in tech and learning how thing work. I was always opening appliances to see how they worked from a
           very young
           age. When I first interacted with computers I wanted to know how they did what they did. I wanted to know how the machine turned something written to a drive into a program or game. That naturally led to code and how to build software.
           During
@@ -35,28 +36,57 @@
 
       <!-- Projects section -->
 
-      <div class="row projects">
-        <p><strong>These are just a few of my past projects</strong></p>
-        <div class="row">
-          <p><a href="https://kagenijk.github.io/Anitas-Kitchen/" class="col-md-4 projectim"><img class="projectim" src="images/anitas.png" alt="Anitas Kitchen"></a></p>
-          <p><h3><a href="https://github.com/KageniJK/Anitas-Kitchen">Anita's Kitchen</a></h3> <br>A moringa school project where we were recreating a website. <br>HTML5 CSS3</p>
+      <div class="overlay my-5 py-3">
+        <h3><strong>Projects</strong></h3>
+        <div class="black">
+          <ul class="list-group list-group-flush black">
+              <li class="list-group-item">
+                <div class="row">
+                  <div class="col-md-4 col-sm-4" >
+                    <a href="https://kagenijk.github.io/Anitas-Kitchen" class="projectim"><img src="images/anitas.png" alt="image"></a>
+                  </div>
+                  <div class="col-md-8 row">
+                    <p class="col-md-12"><a href="https://github.com/KageniJK/anitas-kitchen">Anitas Kitchen</a></p>
+                    <p class="col-md-12">A restaurant front page to showcase themselves</p>
+                    <p class="col-md-12">html css</p>
+                  </div>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div class="row">
+                  <div class="col-md-4 col-sm-4" >
+                    <a href="https://kagenijk.github.io/pig-dice" class="projectim"><img src="images/pig-dice.png" alt="image"></a>
+                  </div>
+                  <div class="col-md-8 row">
+                    <p class="col-md-12"><a href="https://github.com/KageniJK/pig-dice">Pig Dice</a></p>
+                    <p class="col-md-12">A dice based turn game. fun for all. users take turns to try reach a total score of 100 based on the display face of the die</p>
+                    <p class="col-md-12">HTML CSS JavaScript</p>
+                  </div>
+                </div>
+            </li>
+              <li class="list-group-item">
+                <div class="row">
+                  <div class="col-md-4 col-sm-4" >
+                    <a href="https://hall-of-james.herokuapp.com/" class="projectim"><img src="images/pictorial.png" alt="image"></a>
+                  </div>
+                  <div class="col-md-8 row">
+                    <p class="col-md-12"><a href="https://github.com/KageniJK/image-gallery">Pictorial</a></p>
+                    <p class="col-md-12">A python personal image gallery</p>
+                    <p class="col-md-12">HTML CSS Python(Django)</p>
+                  </div>
+                </div>
+              </li>
+        </ul>
         </div>
-        <div class="row">
-          <a href="https://kagenijk.github.io/pig-dice/" class="col-md-4 projectim">
-              <img class="projectim" src="images/pig-dice.png" alt="Pig-Dice"></a>
-          <p><h3><a href="https://github.com/KageniJK/pig-dice">Pig Dice.</a></h3><br> A javascript turn based dice game. <br> Css, Html, Javascript</p>
-        </div>
-        <div class="row">
-          <p><a href="https://wess58.github.io/PROJECT-X/" class="col-md-4 projectim"><img class="projectim" src="images/artisans.png" alt="Anitas Kitchen"></a></p>
-          <p><h3><a href="https://github.com/wess58/PROJECT-X">Artisanss</a></h3> <br> An art showcase and hiring website <br>HTML5 CSS3 and javascript </p>
-        </div>
+
       </div>
 
 
 
       <!-- Skills section  -->
 
-      <div class="row lists" id="Skills">
+      <div class="row lists overlay mx-0 my-5 py-5" id="Skills">
+        <h3 class="col-md-12"><strong>Skills</strong></h3>
         <div class="col-md-3 logo">
           <img src="images/HTML5_logo_and_wordmark.svg" alt=""><br>HTML
         </div>
@@ -73,25 +103,23 @@
 
 
       <!-- touch it remix -->
-      <div>
-        <form method="POST" action="https://formspree.io/james.kageni@gmail.com" class="">
+      <div class="overlay container mt-3 py-3 my-5">
+        <form method="POST" action="https://formspree.io/james.kageni@gmail.com" >
+          <h3>Contact Me</h3>
           <div class="container">
-            <input type="text" name="name" placeholder="Your name">
-            <input type="email" name="email" placeholder="Your email">
-            <textarea name="message" placeholder="Your message"></textarea><br>
+            <input type="text" name="name" placeholder="Your name" class=form-control><br>
+            <input type="email" name="email" placeholder="Your email" class="form-control"><br>
+            <textarea name="message" placeholder="Your message" class="form-control"></textarea><br>
             <button type="submit" class="btn btn-primary">Send</button>
           </div>
         </form>
       </div>
-
-
-
-
     <footer>
-    <p id="links">
-      <a href="https://github.com/KageniJK"><i class="fab fa-github"></i></a>
-      <a href="https://ke.linkedin.com/in/james-kageni-0b8120119"><i class="fab fa-linkedin"></i></a>
-    </p>
+      <h5>Find me Elsewhere</h5>
+      <p id="links">
+        <a href="https://github.com/KageniJK"><i class="fab fa-github"></i></a>
+        <a href="https://ke.linkedin.com/in/james-kageni-0b8120119"><i class="fab fa-linkedin"></i></a>
+      </p>
     </footer>
   </div>
 
